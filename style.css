@@ -1,0 +1,58 @@
+.input-icons i { 
+    position: absolute; 
+} 
+  
+.input-icons { 
+    width: 100%; 
+    margin-bottom: 10px; 
+    border-radius: 20px;
+} 
+  
+.icon { 
+    padding: 10px; 
+    color: white; 
+    min-width: 50px; 
+    text-align: center; 
+} 
+  
+.input-field { 
+    width: 100%; 
+    padding: 10px; 
+    text-align: center; 
+} 
+  
+
+body{
+    background-image: url("login.jpg");
+    height: 700px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+
+}
+input{
+    border-radius: 20px;
+    background: transparent;
+    
+    
+}
+#heading{
+    color: white;
+}
+#login_b{
+    background-color: #ff006a;
+    color: white;
+    width: 300px;
+    border-radius: 30px;
+    border-style: none;
+    height: 30px;
+}
+::placeholder {
+    color:white;
+    opacity: 1;
+}
+textarea:focus, input:focus {
+    color: white;
+}
+
